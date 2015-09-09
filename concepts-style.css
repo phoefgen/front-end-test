@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+	color: blue;
+	font-family: helvetica;
+
+}
+.TOC {
+	text-align: left;
+	font-family: helvetica;
+	font-size: large;
+}
+
+.all_lessons {
+	background-color: grey;
+
+}
