@@ -1,56 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="concepts-style.css">
 	<title> Initial page of HTML and CSS notes> </title>
 </head>
 
 <body>
+	<div class="TOC">
+		<h1>Table of Contents</h1>
+		<h3>Lesson 1 HTML Tagsts</h3>
+		<p>
+			<a href="#HTMLTags"> Html Tags </a><br>
+			<a href="#HTMLAttributes"> Html Attributes </a><br>
+			<a href="#InlineVblock"> Inline Vs Block Elements</a><br>
+		</p>
 
-	<H1>HTML Notes</H1>
-<div>
-	<H2> Lesson 1: HTML Tags</H2>
+		<h3>Lesson 2 CSS Concepts</h3>
+		<p>
+			<a href="CSSDivisions"> CSS: Boxification</a><br>
+		</p>
 
-	&#60;b&#62; &#60;/b&#62; <b>Bold</b> <br>
-	&#60;em&#62; &#60;/em&#62; <em>Emphasis</em> <br>
-	&#60;br&#62; Break tag. <- line break. Stackable <br>
-	&#60;p&#62; content &#60;/p&#62; Renders as a paragraph <br>
+		<h3>Lesson 3 Implementing CSS</h3>
+		<p>
+			<a href="#LinkStyle"> Linking Style Sheets</a><br>
+			<a href="#Classes"> Calling Classes from DIV</a><br>
+			<a href="#ClassSettings"> Defining CSS Settings</a><br>
+			<a href="#Inheritance"> Inheritance</a><br>
+			<a href="#CSSTools"> CSS Tools</a><br>
+		</p>
+	</div>
 
-	<H2>HTML ATTRIBUTES:</H2>
-	HTML attribute tags are used to pass variables into objects.<br>
-	<p>
-	<em>Abstraction:</em><br>
-	<b>&#60;TAG ATTR=&#34;Value&#34;&#62;</b> additional content&#60;TAG&#62; <br><br>
-	<em>Example:</em>
-	<br>
+	<h1>Concept Details</h1>
+	<div class="all_lessons">
 
-	&#60;a&#62;  is the Anchor tag. Creates a link. <br>
-	<br>
-	<b>&#60;a&#62; href=&#34;www.link.com&#34;&#62; hyperlink txt&#60;/a&#62</b>;   the anchor tag has a HREF attribute, in this case a link. containts content<br><br>
+		<div class="Lesson1">
 
-	<b>&#60;img src=&#34;url&#43; alt=&#34;text&#34;&#62;</b>     Some attribute tags (like this one) dont have a closing pair. These are called VOID tags. 
-	</p>
-	<br>
-	<p>
-	<H2>Inline Elements vs Block elements</H2>
+			<div class="HTMLNotes">
 
-	Block elements create invisible boxes <br>
-	<em> Example</em><br>
+				<h2>HTML Notes</h2>
 
-	<b>&#60;p&#62;&#60;/p&#62;</b> is a block element. It creates its own dedicated space. 
-	<b>&#60;br&#62;&#60;br&#62;</b> is inline. It exists in the space of another element. <br><br>
+				<a name="HTMLTags"></a>
+				<h3> Lesson 1: HTML Tags</h3>
 
-	<em>Spans are inline.</em><br>
-	<em>Div are blocks.</em><br>
-	</p>
-	<p>
-</div>
+				&#60;b&#62; &#60;/b&#62; <b>Bold</b> <br>
+				&#60;em&#62; &#60;/em&#62; <em>Emphasis</em> <br>
+				&#60;br&#62; Break tag. <- line break. Stackable <br>
+				&#60;p&#62; content &#60;/p&#62; Renders as a paragraph <br>
 
-<div>
-	<H2>Lesson 2: Divisions</H2><br>
-	Webpages are made of boxes, and boxes are defined by divisions. Divisions can reference a class, that is defined in CSS, that applies formatting to the structure. HTML defines the structure, CSS defines styling.
-	<br>
-	</p>
-</div>
+				<a name="HTMLAttributes"></a>
+				<h3>HTML ATTRIBUTES:</h3>
+				HTML attribute tags are used to pass variables into objects.<br>
+				<p>
+				<em>Abstraction:</em><br>
+				<b>&#60;TAG ATTR=&#34;Value&#34;&#62;</b> additional content&#60;TAG&#62; <br><br>
+				<em>Example:</em>
+				<br>
+
+				&#60;a&#62;  is the Anchor tag. Creates a link. <br>
+				<br>
+				<b>&#60;a&#62; href=&#34;www.link.com&#34;&#62; hyperlink txt&#60;/a&#62</b>;   the anchor tag has a HREF attribute, in this case a link. containts content<br><br>
+
+				<b>&#60;img src=&#34;url&#43; alt=&#34;text&#34;&#62;</b>     Some attribute tags (like this one) dont have a closing pair. These are called VOID tags. 
+				</p>
+				<br>
+				<p>
+
+				<a name="InlineVBlock"></a>
+				<h3>Inline Elements vs Block elements</h3>
+
+				Block elements create invisible boxes <br>
+				<em> Example</em><br>
+
+				<b>&#60;p&#62;&#60;/p&#62;</b> is a block element. It creates its own dedicated space. 
+				<b>&#60;br&#62;&#60;br&#62;</b> is inline. It exists in the space of another element. <br><br>
+
+				<em>Spans are inline.</em><br>
+				<em>Div are blocks.</em><br>
+				</p>
+			</div>
+		</div>
+
+		<div class ="lesson2">
+			<a name="CSSDivisions"></a>
+
+			<h3>Lesson 2: CSS Concepts</h3><br>
+			<p>
+			Webpages are made of boxes, and boxes are defined by divisions. Divisions can reference a class, that is defined in CSS, that applies formatting to the structure. HTML defines the structure, CSS defines styling.
+			<br>
+			</p>
+		</div>
+
+		<div class="lesson3">
+			<a name="LinkStyle"></a>
+			<h3>Lesson 3: Implementing CSS</h3>
+
+			<h3>Linking to Style Sheets</h3>
+			<p>
+				To link to a style sheet URL:<br>
+
+				&#60;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;&#60;URL of CSS file&#62;&#34;&#62;<br>
+			</p>
+
+			<a name="Classes"></a>
+			<h3>Calling Classes from DIV</h3>
+			<p>
+				A division can be associated with a class. That class has styling attributes that are then defined in the css functions.<br>
+
+				Example:<br>
+				HTML:<br>
+				&#60;div class=&#34;&#60;class name&#62;&#34;&#62;<br>
+		      	&#60;Division Content&#62;<br>
+				&#60;/div&#62;<br>
+			</p>
+
+			<a name="ClassSettings"></a>
+			<h3>Defining CSS Settings</h3>
+			<p>To define settings for a Class:
+
+			.&#60;class name&#62; {<br>
+		    &#60;attribute&#62; : &#60;value&#62;;<br>
+			}<br>
+			<br>
+			To define settings for an element type:<br>
+			<br>
+			&#60;element name&#62; {<br>
+		      attribute : value;<br>
+			}<br>
+			<br>
+			Example:<br>
+			<br>
+			p {<br>
+		     color : red;<br>
+			}<br>
+			<br>
+			The above sets all text contained in a paragraph to red.<br>
+			</p>
+
+
+			<a name="Inheritance"></a>
+			<h3>Inheritance</h3>
+			<p>
+				If an element does not have a style specifically defined, it will inherit the style of the enclosing element.<br>
+			</p>
+
+			<a name="CSSTools"></a>
+			<h3>CSS Tools</h3>
+			<p>
+			Define the total size of a box, padding+border. Does not include margin.<br>
+			<br>
+			*{<br>
+		     box-sizing: border-box;<br>
+			}<br>
+			<br>
+			Take boxes inside a division, and apply flex layout rules.<br>
+			<br>
+			.&#60;element id&#62; {<br>
+		    display: webkit-flex;       # for safari and ipad support.<br>
+		    display: flex;<br>
+			}<br>
+			<br>
+			Stacks them next to each other.<br>
+			Guide to use: https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br>
+			</p>
+		</div>
+	</div>
 
 </body>
 </html>
